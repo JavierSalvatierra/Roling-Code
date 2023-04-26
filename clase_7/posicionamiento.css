@@ -1,0 +1,24 @@
+h1 {
+   background: orange;
+
+}
+
+.capa {
+    background-color: #f60;
+    right: 100px;
+    bottom: 30px;
+    position: fixed;
+}
+
+.capa_externa {
+    background-color: greenyellow;
+    position: relative;
+    height: 200px;
+}
+
+.capa_interna {
+    background-color: #f60;
+    right: 30px;
+    bottom: 30px;
+    position: absolute;
+}

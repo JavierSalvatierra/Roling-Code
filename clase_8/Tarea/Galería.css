@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #091dae;
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+
+}
+
+
+main {
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: #aa059c;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0px;
+    background-image:
+    url(https://media.istockphoto.com/id/1300208115/es/vector/tri%C3%A1ngulo-cruz-cuadrado-y-c%C3%ADrculo-ilustraci%C3%B3n-rectangular-sobre-fondo-azul-oscuro.jpg?s=612x612&w=0&k=20&c=hdsUG53ADWQ7jtAmyQte6bGf_wVPvKN6IhGi-g9GIEA);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+
+}
+
+.column img {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen (max-width: 800px) { 
+    .column {
+        flex: 50%;
+    }
+    .column img {
+        padding: 10px;
+    }
+}
+
+@media screen (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+    .column img {
+        padding: 10px;
+    }
+}
